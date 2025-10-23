@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="profile-card.html">Profile</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <article class="container" data-testid="test-profile-card">
+      <figure>
+        <img
+          src="wisdom.jpg"
+          alt="User avatar"
+          data-testid="test-user-avatar"
+        />
+        <figcaption>User Photo</figcaption>
+      </figure>
+      <div class="profile-content">
+        <header>
+          <h2 data-testid="test-user-name" aria-label="User name">
+            Wisdom Udoh
+          </h2>
+        </header>
+        <p data-testid="test-user-bio">
+          I am a passionate web developer with a love for creating accessible
+          and responsive user interfaces. I enjoy exploring new technologies and
+          sharing my knowledge and skill set with others.
+        </p>
+        <div class="time" data-testid="test-user-time"></div>
+        <nav>
+          <ul class="social-links" data-testid="test-user-social-links">
+            <li>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <section class="hobbies">
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Learning New Skills</li>
+            <li>Reading</li>
+            <li>Experimenting with new Ideas</li>
+          </ul>
+        </section>
+        <section class="dislikes">
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Unhealthy environments</li>
+            <li>Gossips</li>
+            <li>People who are mean to others</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+    <script src="scripts.js"></script>
+  </body>
+</html>

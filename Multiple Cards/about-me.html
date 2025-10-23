@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      section {
+        margin-bottom: 1.5rem;
+      }
+      p {
+        max-width: 600px;
+      }
+      @media (min-width: 768px) {
+        section {
+          flex: 1;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="profile-card.html">Profile</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main class="container" data-testid="test-about-page">
+      <h2>About Me</h2>
+      <section data-testid="test-about-bio">
+        <h3>Bio</h3>
+        <p>
+          I'm a budding web developer passionate about creating user-friendly
+          and accessible applications. I enjoy learning new technologies and
+          solving problems creatively.
+        </p>
+      </section>
+      <section data-testid="test-about-goals">
+        <h3>Goals in This Program</h3>
+        <p>
+          My goal is to master front-end development, focusing on React and
+          TypeScript, and build a portfolio of impactful projects that showcase
+          my skills.
+        </p>
+      </section>
+      <section data-testid="test-about-confidence">
+        <h3>Areas of Low Confidence</h3>
+        <p>
+          I'm still gaining confidence in advanced JavaScript concepts like
+          closures and asynchronous programming, as well as optimizing
+          performance for large-scale apps.
+        </p>
+      </section>
+      <section data-testid="test-about-future-note">
+        <h3>Note to Future Self</h3>
+        <p>
+          Keep pushing forward, even when things get tough. Every challenge is a
+          chance to grow, and you're capable of more than you think!
+        </p>
+      </section>
+      <section data-testid="test-about-extra">
+        <h3>Extra Thoughts</h3>
+        <p>
+          I'm excited to collaborate with others and contribute to open-source
+          projects. I also want to explore UI/UX design to complement my coding
+          skills.
+        </p>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
